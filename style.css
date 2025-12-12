@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(173, 174, 175, 0.61);
+}
+
+#iconBackground {
+    border-radius: 20px;
+    height: 100%;
+    padding-right: 1em;
+}
+
+.backgroun3{
+    background-image: url(img/Lena.png);
+    border-radius: 20px;
+    height: 100%;
+    padding-right: 1em;
+}
+
+
+#icon1,
+#icon2,
+#icon3, 
+#icon4, 
+#icon5 {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin: 8px;
+    border: 2px solid black;
+    transition: transform .5s;
+}
+
+
+
+#icon:nth-child(5) {
+    margin-right: 30px;
+}
+
+section {
+    display: flex;
+    background-color: rgb(255, 253, 253);
+    box-shadow: 10px 5px 50px rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+
+fieldset {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+h1 {
+    font-weight: 800;
+    color: rgb(10, 7, 184);
+    font-size: 60px;
+
+
+}
+
+p {
+    padding: 30px 0px 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(236, 162, 1);
+}
+
+.form__login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_action {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.teste{
+    background-color: black;
+    border: 40px solid black;
+}
+
+
+#form_button {
+    background-color: rgba(131, 85, 240, 0.856);
+    width: 15em;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+input {
+    height: 3em;
+    width: 20em;
+    padding-left: 20px;
+    border-radius: 20px;
+    text-align: start;
+    border: none;
+    font-size: 15px;
+    background-color: rgba(201, 201, 201, 0.719);
+}
+
+input::placeholder {
+    color: black;
+}
+
+#icon:hover {
+    transform: scale(1.2);
+}
