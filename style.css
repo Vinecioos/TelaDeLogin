@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     vertical-align: baseline;
-    list-style: none;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -24,14 +23,6 @@ body {
     padding-right: 1em;
 }
 
-.backgroun3{
-    background-image: url(img/Lena.png);
-    border-radius: 20px;
-    height: 100%;
-    padding-right: 1em;
-}
-
-
 #icon1,
 #icon2,
 #icon3, 
@@ -43,12 +34,6 @@ body {
     margin: 8px;
     border: 2px solid black;
     transition: transform .5s;
-}
-
-
-
-#icon:nth-child(5) {
-    margin-right: 30px;
 }
 
 section {
@@ -94,13 +79,6 @@ p {
     padding: 10px;
 }
 
-
-.teste{
-    background-color: black;
-    border: 40px solid black;
-}
-
-
 #form_button {
     background-color: rgba(131, 85, 240, 0.856);
     width: 15em;
@@ -123,8 +101,4 @@ input {
 
 input::placeholder {
     color: black;
-}
-
-#icon:hover {
-    transform: scale(1.2);
 }
